@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "llms"
+version = "0.1.0"
+description = "All what you need to know about LLM Development stages (pretraining to quantization)"
+authors = ["Ezzaldin97 <kingtal632@yahoo.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ollama = "^0.3.1"
+transformers = "^4.43.4"
+datasets = "^2.20.0"
+torch = "^2.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
