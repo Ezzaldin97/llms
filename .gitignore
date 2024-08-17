@@ -162,7 +162,4 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-assets/*
-!assets/mini-rag*
-!assets/images
-!assets/images/*
+assets/models
