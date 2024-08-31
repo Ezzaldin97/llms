@@ -7,6 +7,7 @@ causal language modeling predicts the next token in a sequence of tokens, the mo
 
 example: 
 consider the below sentence as an example of training:
+
 "Hello, how are you today?"
 
 we will discuss more about special tokens when talking about tokenizers, but now we will add special tokens to indicate the start of the sentence and end of the sentence
