@@ -23,3 +23,14 @@ the training process is illustrated in the below image:
 every time the model takes an input token(s), and predict the next token, next time the model takes more tokens as an input from the sentence then asked to predict the next token(s), and so on..
 
 ## Step 1: What's the Difference between Base Model and Instruct Model?
+
+- Base model: The Process of Training The Decoder part of the Transformer on a Large chunks of text produces base model. base model is the result of pretraining process, here in this stage the decoder is being trained on large chunks of data like wikibedia articles, github repositories, scientific/history books etc..
+the objective of this process is to learn the model how to generate human-like sentences.
+
+- Instruct model: The Process of Fine-Tuning the base model on Instruction Dataset to Produce a model that can follow the instruction and context to provide relevant answers. the process uses intruction dataset which is basically a group of (instruction, input, output) to fine-tune the model to generate output to the given user instruction and input.    
+
+the below diagram shows the two processes:
+
+![](../assets/imgs/llm-training-stages.png)
+
+## Step 2: Difference in Responses between Base model and Instruct model:
