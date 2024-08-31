@@ -73,4 +73,12 @@ The code then prints the result to the console.
 
 The response above is like GPT-3.5 response it produces the code and illustrate it, wonderfull, isn't it?
 
-## Step 3: Ways of Pretraining:
+## Step 3: Training vs Instruction Dataset:
+
+- Training Dataset: is a large chunks of text like code from github repositories like the dataset below:
+
+[codeparrot](https://huggingface.co/datasets/thomwolf/codeparrot)
+
+- Instruction Dataset: is a group of Instruction, input, output Data:
+
+[python-code-dataset-500k](https://huggingface.co/datasets/jtatman/python-code-dataset-500k) 
