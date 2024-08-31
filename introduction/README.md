@@ -10,12 +10,13 @@ consider the below sentence as an example of training:
 "Hello, how are you today?"
 
 we will discuss more about special tokens when talking about tokenizers, but now we will add special tokens to indicate the start of the sentence and end of the sentence
-- <sos>: start of sentence
-- <eos>: end of sentence
+- `<sos>`: start of sentence
+- `<eos>`: end of sentence
 
-"<sos>Hello, how are you today?<eos>"
+"`<sos>`Hello, how are you today?`<eos>`"
 
 the training process is illustrated in the below image:
+
 ![](../assets/imgs/causal-language-modeling.png)
 
 every time the model takes an input token(s), and predict the next token, next time the model takes more tokens as an input from the sentence then asked to predict the next token(s), and so on..
