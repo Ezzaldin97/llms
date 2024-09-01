@@ -35,9 +35,9 @@ The aim of this introduction is to make you understand what's the difference bet
 
 by the end of this part you should understand the following ideas:
 
-- What's Pretraining? How to Pretrain a Model? How the data looks like in this stage? where to find it?
-- Why do we need to pretrain the model again? How to efficiently pretrain a model? 
+- What's Pretraining? How to Pretrain a Model? How the data looks like in this stage? where to find it? 
 - What's Instruction Tuning? How to create an Instruct Model? How the data looks like?
+- How to Prepare Datasets?
 - Understand The purpose between pretraining and Instruction Tuning.
 
 check this: [introduction](introduction/)
