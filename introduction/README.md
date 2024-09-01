@@ -81,4 +81,19 @@ The response above is like GPT-3.5 response it produces the code and illustrate 
 
 - Instruction Dataset: is a group of Instruction, input, output Data:
 
-[python-code-dataset-500k](https://huggingface.co/datasets/jtatman/python-code-dataset-500k) 
+[python-code-dataset-500k](https://huggingface.co/datasets/jtatman/python-code-dataset-500k)
+
+## Step 4: How to Prepare Datasets for Training?:
+
+insuring data quality perhaps one of the most important things in machine learning/deep learning, high quality data + data availability gurantees a high performant LLM.
+
+Dataset Preparation may ensure high quality data, we shall discuss some methods to clean our dataset.
+
+#### Data Cleaning Methods:
+
+- remove short examples from pretraining datasets.
+- remove repeated text from examples.
+- remove duplicated documents from pretraining examples/ duplicated outputs from instruction datasets.
+- remove unwanted text, for example when training english LLM, remove non-english texts.
+
+## Step 5: References:
