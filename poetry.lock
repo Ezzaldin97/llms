@@ -2572,6 +2572,16 @@ numpy = ">=1.16.6"
 test = ["cffi", "hypothesis", "pandas", "pytest", "pytz"]
 
 [[package]]
+name = "pycld2"
+version = "0.41"
+description = "Python bindings around Google Chromium's embedded compact language detection library (CLD2)"
+optional = false
+python-versions = "*"
+files = [
+    {file = "pycld2-0.41.tar.gz", hash = "sha256:a42f6e974df8fdd70685c2baa8a9f523069a260e1140ce604fb9f1fb6c3064df"},
+]
+
+[[package]]
 name = "pycparser"
 version = "2.22"
 description = "C parser in Python"
@@ -4341,4 +4351,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "0dc59859e096967aca88e3693653490249f755eba7d1e9572ee0d4170482cdee"
+content-hash = "e7dde42f6fb2118efa0ec5b679fe188132bfef03bc01172074c9e755b3f03a41"
