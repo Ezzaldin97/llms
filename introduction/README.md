@@ -96,4 +96,10 @@ Dataset Preparation may ensure high quality data, we shall discuss some methods 
 - remove duplicated documents from pretraining examples/ duplicated outputs from instruction datasets.
 - remove unwanted text, for example when training english LLM, remove non-english texts.
 
-## Step 5: References:
+## Step 5: Further Readings & References:
+
+
+- [hugging-face-CLM](https://huggingface.co/docs/transformers/tasks/language_modeling)
+- [GPT2](https://jalammar.github.io/illustrated-gpt2/)
+- [LLM-alignment](https://openai.com/index/instruction-following/)
+- [data-preparation-in-pretraining-LLMs-course](https://learn.deeplearning.ai/courses/pretraining-llms/lesson/3/data-preparation)
